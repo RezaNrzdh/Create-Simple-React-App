@@ -1,5 +1,4 @@
 import {Outlet, Link} from 'react-router-dom';
-import About from './about';
 
 const App = () => {
   return(
