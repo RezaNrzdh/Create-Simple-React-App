@@ -1,15 +1,11 @@
 import {Outlet, Link} from 'react-router-dom';
+import Layout from './hoc/layout';
 
 const App = () => {
   return(
-    <div>
-      <nav>
-        <h1>THE SIMPLE REACT APP</h1>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-      </nav>
+    <Layout>
       <Outlet />
-    </div>
+    </Layout>
   );
 }
 
