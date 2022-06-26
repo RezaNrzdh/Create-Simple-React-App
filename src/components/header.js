@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Header = () => {
     return(
         <HeaderStyled>
-            <h1>THE SIMPLE REACT APP</h1>
+            <h1>REACT APP</h1>
             <Nav>
                 <Link to='/'>Home</Link>
                 <Link to='/about'>About</Link>

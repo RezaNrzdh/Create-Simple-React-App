@@ -12,8 +12,7 @@ const List = () => {
 
     return(
         <div>
-            <h1>LIST PAGE</h1>
-            <br />
+            <h2>LIST PAGE</h2>
             <ul>
                 {
                     data.map((i, index) => {
