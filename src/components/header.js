@@ -31,6 +31,15 @@ const Nav = styled.nav`
     display: flex;
     width: 100%;
     a{
-        padding-right: 16px;
+        padding: 16px;
+        margin-right: 16px;
+        background-color: #F1F1F1;
+        transition: all ease-in-out 0.3s;
+        text-decoration: none;
+        color: black;
+        &:hover{
+            background-color: #04A56A;
+            color: white;
+        }
     }
 `;
