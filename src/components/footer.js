@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 const Footer = () => {
     return(
-        <FooterCointaner>FOOTER</FooterCointaner>
+        <FooterContainer>FOOTER</FooterContainer>
     );
 }
 
-const FooterCointaner = styled.footer`
+const FooterContainer = styled.footer`
     display: flex;
     align-self: flex-end;
     width: 100%;
